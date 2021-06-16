@@ -1,12 +1,54 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Data Lovers</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root"></div>
-    <script src="main.js" type="module"></script>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Data Lovers</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header class="logo">
+    <section class= "typ">     
+      <nav>
+        <form class="mone" id="mon">
+          <label>Tipos:</label>
+          <select name="pokemones" id="pokem">
+            <option value="bug">BICHO</option>      
+            <option value="dragon">DRAGON</option>
+            <option value="electric">ELECTRICO</option>
+            <option value="fairy">HADA</option>
+            <option value="fire">FUEGO</option>
+            <option value="flying">VOLADOR</option>
+            <option value="ghost">FANTASMA</option>
+            <option value="ice">HIELO</option>
+            <option value="normal">NORMAL</option>
+            <option value="poison">VENENO</option>
+            <option value="psychic">PSIQUICO</option>
+            <option value="rock">ROCA</option>
+            <option value="steel">ACERO</option>
+            <option value="water">AGUA</option>
+            <option value="A-Z">ORDEN A-Z</option>
+            <option value="Z-A">ORDEN Z-A</option>-->
+            <input type="button" id="reset" value="Mostrar Todo" class="pokeType" />
+          </select>
+        </form>
+      </nav>
+    </section>
+     <img src="./imagen/pokemon-logo.jpg">
+    </header>
+  <section class="content">
+
+  </section>
+  <div id="root" class="flex-container"></div>
+  <footer>
+    <div class="links">
+      Pagina oficial de Pokemones:
+      <a href="https://www.pokemon.com/el/">https://lan.pokemon.com</a>
+      -Derechos reservados M.V.B.R.-
+    </div>
+  </footer>
+  <script src="main.js" type="module"></script>
+</body>
 </html>

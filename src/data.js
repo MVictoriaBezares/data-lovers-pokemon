@@ -1,9 +1,5 @@
-// estas funciones son de ejemplo
+//funciones relacionada a procesar la info, toda la funcionalidad para obtener y procesar y manipular datos como filter, sort//
 
-export const example = () => {
-  return 'example';
-};
-
-export const anotherExample = () => {
-  return 'OMG';
-};
+export const leakedPoke = (globalPoke, type) => globalPoke.filter(item => {
+    return item.globalPoke.type == globalPoke.type.includes(type);
+});
